@@ -1,0 +1,93 @@
+body {
+    background: #292929;
+    color: #eeeeec;
+    font-family: sans-serif;
+}
+
+#keyboard {
+    position: absolute;
+    padding-top: 250px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#keyboard .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#keyboard .key {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#keyboard .key:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.key-tab,
+.key-caps,
+.key-backspace,
+.key-enter,
+.key-shift {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.key-ctrl,
+.key-alt {
+    width: 75px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.key-space {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.key-alt:hover,
+.key-ctrl:hover,
+.key-tab:hover,
+.key-caps:hover,
+.key-backspace:hover,
+.key-enter:hover,
+.key-shift:hover,
+.key-space:hover {
+    background-color: #000;
+    color: #fff;
+}
